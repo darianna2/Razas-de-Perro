@@ -1,0 +1,66 @@
+html{
+  background-color: lightpink;
+} 
+
+body {
+  color: black;
+  display: flex; 
+  flex-direction: column;
+  max-height: 100%;
+  max-width: 1000px;
+  margin:auto;
+  border:solid;
+  text-align:center;
+}
+
+nav{
+  background-color: hotpink;
+  font-size: 20px;
+  text-align:center;
+}
+
+nav a{
+  color:brown;
+  margin-right: 20px;
+}
+
+nav a:hover{
+  color:brown;
+}
+
+.titulo{
+  font-size: 30px;
+  text-align: center;
+}
+
+.titulo h1{
+  margin-bottom: 0;
+  padding: 0;
+  color: darkviolet;
+}
+
+hr{
+  background-color: hotpink;
+  color: hotpink;
+  border: solid;
+  width: 100%;
+}
+
+img{
+  min-height: 200px;
+  min-winth: 200px;
+  max-height: 500px;
+  max-width: 500px;
+  border: solid 5px;
+  :center;
+}
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
